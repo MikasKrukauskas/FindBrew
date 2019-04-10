@@ -30,8 +30,8 @@
          -[ReadDescription: Read information about beer]
          -[SelectBeer: select favorite beer and add it to favorite beers list]
          -[CreateYourOwnBeer: create your own beer and add to beers list]
-    - [Second: ] 
-      - [Possible actions:]
+    - [Main: A list of beers ]
+     - [Possible actions:]
           - [Delete: delete beer from favorites list]
          
             
