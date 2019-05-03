@@ -12,14 +12,13 @@
     - [description:Mandatory String (<150 char)]
     - [first_brewed:Mandatory Date]
     - [abv:Mandatory Integer(<4 char)] 
-    - [Icon:Blob(<250 MB)] 
     - [volume:String(<4 char)] 
     - [tagline:String(<10 char)] 
     - [ingredients:String(<100 char)] 
     
 # Api methods
         - [ Get beer by its id Method: Get /beer/{id}] 
-        - [ Get beers list by abv Get /beer/abv/ ] 
+        - [ Get beers list  Get /beers/ ] 
         - [ Delete beer by its id delete /beer/{id} ] 
         - [ Edit beer by its id put /beer/{id} ] 
         - [ Create a beer  Post /beer/]  
